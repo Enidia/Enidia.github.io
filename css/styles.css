@@ -1,8 +1,8 @@
 #web_bg,#footer{
-    background-image: linear-gradient(-225deg, #eeb4f4, #bfa0fb 30%, #97cdff 100%);
+    background-image: linear-gradient(-225deg, #f4cbf9, #faf8ff 30%, #e4f1fe 100%, #97cdff 100%);
 }
 #footer {
-    background-image: linear-gradient(-225deg, #edacf3, #cdb6fc 50%, #98c7f3 100%);
+    background-image: linear-gradient(-225deg, #edacf3, #fffeff 50%, #98c7f3 100%);
 }
 #footer::before{
     background-color: rgba(0,0,0,0);
