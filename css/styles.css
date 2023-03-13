@@ -1,5 +1,15 @@
+#web_bg{
+    background-image: linear-gradient(-225deg, #330237, #1c0c3b 28%, #102c47 100%);
+}
+#web_bg:hover{
+    background-image: linear-gradient(-225deg, #330237, #1c0c3b 78%, #102c47 100%);
+}
+
 #footer {
     background-image: linear-gradient(-225deg, #250627, #17063a 28%, #032648 100%);
+}
+#footer:hover{
+    background-image: linear-gradient(-225deg, #250627, #17063a 78%, #032648 100%);
 }
 #footer::before{
     background-color: rgba(0,0,0,0);
