@@ -1,15 +1,19 @@
 #web_bg{
-    background-image: linear-gradient(-225deg, #330237, #1c0c3b 28%, #102c47 100%);
+    background-image: linear-gradient(-225deg, #e474ee, #885ae6 28%, #2c8fed 100%);
 }
-#web_bg:hover{
-    background-image: linear-gradient(-225deg, #330237, #1c0c3b 78%, #102c47 100%);
-}
-
+:hover
+@keyframes footerani {
+    from {background-image: linear-gradient(-225deg, #e474ee, #885ae6 28%, #2c8fed 100%);}
+    to{background-image: linear-gradient(-225deg, #e474ee, #885ae6 78%, #2c8fed 100%);}}
+@-webkit-keyframes footerani {
+    from {background-image: linear-gradient(-225deg, #e474ee, #885ae6 28%, #2c8fed 100%);}
+    to{background-image: linear-gradient(-225deg, #e474ee, #885ae6 78%, #2c8fed 100%);}}
 #footer {
-    background-image: linear-gradient(-225deg, #250627, #17063a 28%, #032648 100%);
+    background-image: linear-gradient(-225deg, #e474ee, #885ae6 28%, #2c8fed 100%);
 }
 #footer:hover{
-    background-image: linear-gradient(-225deg, #250627, #17063a 78%, #032648 100%);
+    animation: footerani 2s;
+    -webkit-animation: footerani 2s;
 }
 #footer::before{
     background-color: rgba(0,0,0,0);
